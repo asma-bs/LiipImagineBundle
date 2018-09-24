@@ -17,6 +17,13 @@
         },
         "exclude-from-classmap": [ "/Tests/" ]
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:asma-bs/Imagine.git"
+        }
+
+    ],
     "require": {
         "php": "^7.1",
         "imagine/Imagine": "dev-master",
